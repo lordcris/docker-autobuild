@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
 
-echo "Running run_docker_tests.sh FAILED"
-echo "viva il mondo!"
-exit 0
+
+test -f /usr/share/nginx/html/index.html
+test -f /usr/share/nginx/html/index.html1
